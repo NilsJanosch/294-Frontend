@@ -29,6 +29,20 @@ fetch(url, {
 	/// -- Daten Verarbeiten -- ///
 )
 ```
+## Als Async Methode Exportieren
+_So haben wir es gelernt_
+```javascript
+const url = "SomeRandomURL"
+
+export async function fetchSomething() {
+	const response = await fetch(url)
+	if (!response.ok) {
+		return Promise.reject(response.statusText)
+	}
+	const data = await response.json()
+	return data
+	}
+```
 ## Die 4 Verschiedenen Methoden (CRUD)
 _CRUD Steht für Create, Read, Update, Delete_
 ### Get (Read)
