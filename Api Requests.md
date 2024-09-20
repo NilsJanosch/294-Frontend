@@ -41,7 +41,7 @@ export async function fetchSomething() {
 	}
 	const data = await response.json()
 	return data
-	}
+}
 ```
 ## Die 4 Verschiedenen Methoden (CRUD)
 _CRUD Steht für Create, Read, Update, Delete_
