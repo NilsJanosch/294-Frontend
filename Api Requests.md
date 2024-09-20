@@ -29,12 +29,13 @@ fetch(url, {
 	/// -- Daten Verarbeiten -- ///
 )
 ```
-## Die 4 Verschiedenen Methoden
-### Get
+## Die 4 Verschiedenen Methoden (CRUD)
+_CRUD Steht für Create, Read, Update, Delete_
+### Get (Read)
 Daten holen
-### Put
+### Put (Update)
 Daten Updaten
-### Delete
+### Delete (Delete)
 Daten Löschen
-### Post
+### Post (Create)
 Daten einfügen

@@ -20,17 +20,10 @@ In diesem praktischen Teil der Leistungsbeurteilung wird ein Frontend für eine 
 
 ## Wichtige Inhalte
 [[Array Functions]]
-
 [[Api Requests]]
-
 [[Destructuring assignment]]
-
 [[Spread operator]]
-
 [[Template literals]]
-
 [[UseState]]
-
 [[UseEffect]]
-
 [[UseRouter]]
