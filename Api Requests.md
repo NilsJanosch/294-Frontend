@@ -37,7 +37,8 @@ const url = "SomeRandomURL"
 export async function fetchSomething() {
 	const response = await fetch(url)
 	if (!response.ok) {
-		return Promise.reject(response.statusText)
+		throw new Error(response.statusText)
+		/// return Promise.reject(response.statusText) <- Alternative
 	}
 	const data = await response.json()
 	return data
