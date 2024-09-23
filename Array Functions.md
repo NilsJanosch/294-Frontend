@@ -24,7 +24,7 @@ console.log(result);
 ```
 ## map
 ```javascript
- const array1 = [1, 4, 9, 16];
+const array1 = [1, 4, 9, 16];
 
 // Pass a function to map
 const map1 = array1.map((x) => x * 2);
